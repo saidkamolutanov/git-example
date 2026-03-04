@@ -5,15 +5,16 @@ public class Employee {
     String firstname;
     String lastsurname;
 
-//    public Employee(){
-//        System.out.println("I am learning constructor.");
-//    }
+    public void show(){
+        System.out.println("Employee");
+    }
 
-//    public Employee(String txt){
-//        System.out.println(txt);
-//    }
+    public String getDetails(){
+        return "Hi ";
+    }
 
-    public Employee(String firstname, String lastsurname){
-        System.out.println(firstname + " " + lastsurname);
+    @Override
+    public String toString() {
+        return "Hi !";
     }
 }

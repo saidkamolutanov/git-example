@@ -6,12 +6,13 @@ public class Main {
 
         //constructor
 
-        Employee ishchi_1 = new Employee("Name", "Surname");
+        Employee employee = new Employee();
 
-//        ishchi_1.firstname = "ishchi 1 name";
-//        ishchi_1.lastsurname = "ishchi 1 surname";
+//        employee.show();
 
-//        System.out.println(ishchi_1.firstname);
-//        System.out.println(ishchi_1.lastsurname);
+//        String detail = ;
+//        System.out.println(employee.getDetails());
+
+        System.out.println(employee);
     }
 }
